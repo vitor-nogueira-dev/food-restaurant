@@ -1,0 +1,148 @@
+.containerHero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  width: 100vw;
+  height: 600px;
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.btnOrderNow {
+  width: 250px;
+  height: 70px;
+
+  border-radius: 8px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  color: #262626;
+}
+
+.textColor {
+  width: 641px;
+  height: 142px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 71px;
+
+  color: #ff5a00 !important;
+}
+
+.textReserve {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 71px;
+}
+
+.infos {
+  width: 641px;
+  height: 84px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.men {
+  width: 600px;
+  height: 510px;
+  margin-top: 90px;
+}
+
+@media (min-width: 768px) {
+  .containerHero {
+    height: auto;
+    margin-top: 20px;
+  }
+  .contentLeft {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .contentButtons {
+    margin: 20px;
+    display: flex;
+    align-self: center;
+  }
+  .men {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerHero {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+  }
+
+  .contentLeft {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .btnOrderNow {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 10px;
+
+    text-align: center;
+  }
+
+  .textColor {
+    width: 100%;
+    font-size: 30px;
+    /* line-height: 42px; */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .textReserve {
+    font-size: 34px;
+  }
+
+  .infos {
+    width: 355px;
+    height: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+  }
+
+  .men {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .contentButtons {
+    display: flex;
+    width: 340px;
+    align-self: center;
+  }
+}

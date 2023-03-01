@@ -1,0 +1,143 @@
+.cardHamburguer {
+  /* display: flex; */
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgHamburguers {
+  width: 240px;
+  height: 219px;
+}
+
+.title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.contentInfos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 240px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+
+  padding: 10px;
+  margin-top: -30px;
+
+  background: #ffbd99;
+  border-radius: 8px;
+}
+
+.textContent {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.btnAsk {
+  width: 80px;
+  height: 23px;
+
+  border-radius: 8px;
+  background-color: transparent;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #262626;
+}
+
+.btnSelected {
+  width: 80px;
+  height: 23px;
+
+  background: #262626;
+
+  border: 1px solid #262626;
+  border-radius: 8px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footerInfos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+  .cardHamburguer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .imgHamburguers {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .contentInfos {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -20px;
+  }
+
+  .textContent {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .btnAsk {
+    font-size: 12px;
+    line-height: 12px;
+    width: 70px;
+    height: 20px;
+  }
+
+  .btnSelected {
+    font-size: 12px;
+    line-height: 12px;
+    width: 70px;
+    height: 20px;
+  }
+}

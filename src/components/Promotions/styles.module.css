@@ -1,0 +1,142 @@
+.containerPromotions {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-image: url(../../assets/restaurante.png);
+
+  width: 100vw;
+  height: 550px;
+
+  margin-top: 80px;
+}
+
+.containerLeft {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.titlePromotions {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+}
+
+.textPromotions {
+  width: 430px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.textPercent {
+  display: flex;
+  align-items: center;
+
+  width: 90px;
+  height: 90px;
+
+  padding: 5px;
+
+  border-radius: 50%;
+
+  background: #ff5a00;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+
+  margin-left: 150px;
+  margin-bottom: -50px;
+
+  z-index: 999;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .containerLeft {
+    margin-left: 30px;
+  }
+  .textPromotions {
+    width: 100%;
+    max-width: 355px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .containerRight {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foodMassa {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .containerPromotions {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 0;
+  }
+
+  .containerLeft {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .titlePromotions {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .textPromotions {
+    width: 355px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .containerRight {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .textPercent {
+    width: 70px;
+    height: 70px;
+    font-size: 22px;
+    line-height: 26px;
+    margin-right: 10px;
+    margin-bottom: -30px;
+  }
+
+  .foodMassa {
+    width: 300px;
+  }
+}

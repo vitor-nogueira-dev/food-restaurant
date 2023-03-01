@@ -1,0 +1,202 @@
+.cardsList {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 240px;
+  height: 60px;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.listSelected {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 240px;
+  height: 60px;
+
+  background: #ff5a00;
+  border-radius: 8px;
+}
+
+.nameCategorys {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.cardsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 160px;
+  height: 40px;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.listSelected {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 160px;
+  height: 40px;
+
+  background: #ff5a00;
+  border-radius: 8px;
+}
+
+.nameCategorys {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.cardsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 160px;
+  height: 40px;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.listSelected {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 5px;
+
+  width: 160px;
+  height: 40px;
+
+  background: #ff5a00;
+  border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+  .cardsList {
+    width: 200px;
+    height: 60px;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .listSelected {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 200px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cardsList {
+    width: 200px;
+    height: 60px;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .listSelected {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 200px;
+    height: 60px;
+  }
+
+  .nameCategorys {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 10px;
+    padding: 5px;
+
+    width: 200px;
+    height: 60px;
+
+    background: #ffffff;
+    border-radius: 8px;
+  }
+
+  .listSelected {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 10px;
+    padding: 5px;
+
+    width: 200px;
+    height: 60px;
+
+    background: #ff5a00;
+    border-radius: 8px;
+  }
+
+  .nameCategorys {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+}
