@@ -205,6 +205,8 @@ a:hover {
   .containerListItems {
     margin-bottom: 20px;
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -250,5 +252,10 @@ a:hover {
 
   .containerListItems {
     margin-bottom: 20px;
+  }
+  .design {
+    flex-direction: column;
+    height: 120px;
+    font-size: 14px;
   }
 }
