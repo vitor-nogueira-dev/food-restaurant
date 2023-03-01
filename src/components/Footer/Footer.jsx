@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-      <div className={styles.design}>Copyright ©  <span className={styles.color}>  2023.</span> Todos os direitos reservados. Design desenvolvido por <a href="https://www.linkedin.com/in/jonas-nunes-a30b57138/" target="_blank">Jonas Nunes</a>
+      <div className={styles.design}>Copyright ©  <span className={styles.color}>  2023.</span> Todos os direitos reservados. Design desenvolvido por <a href="https://www.linkedin.com/in/jonas-nunes-a30b57138/" target="_blank" rel="noreferrer noopener">Jonas Nunes</a>
       </div>
     </>
   )
